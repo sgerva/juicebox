@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+  <div class="topnav">
+    <div class="logo">
+    <a href="homepage.html"><img id="logo" src="juiceBoxlogo-01.svg" alt="JuiceBox logo"/></a
+    <img id="toptab" src="toptab-01.svg" alt="logo background"/>
+</div>
+
+     <div id="left">
+  <a href="#products">Product</a>
+  <a href="#about">About us</a>
+  <a href="#reach">Contact</a>
+    </div>
+
+  <div id="right">
+  <a href="viewbasket.html"><img id="basket" src="iconbasket.png" alt="basket"/>See my order</a>
+  <a href="second.html">Start ordering</a>
+    </div>
+</div>
+
+<section id="first">
+<section class="first">
+  <img id="fruit" src="fruits.png" alt="picture of fruit"/>
+  <p>Fresh juice delivered straight to your<br> door!<br><br>
+  Sourced ethically and <br> environmentally friendly.</p>
+
+  <form>
+    <div class="col">
+       <div class="col-xs-6 col-sm-3">
+      <input id="input1" type="text" class="form-control" placeholder="Enter Postcode"></input>
+      <a href="second.html"><button id="button1" type="button" class="btn btn-light">GO!</button></a>
+    </div>
+  </div>
+</form>
+</section>
+</section>
+
+<section id="second">
+<section class="second">
+  <h1 id="products" >Our Products</h1><br><br>
+  <p>All of our products are locally sourced<br><br><br>
+    <p id="secondsmaller">All our ingrediendt are bought from local farmers to minimize<br> the carbon footprint of importing as well as<br> keeping the products as fresh as possible!<br><br><button type="button" class="btn btn-danger">Read more</button></p></p>
+
+  <img id="fruit2" src="fruits2.jpg" alt="picture of fruit"/>
+
+</section>
+</section>
+
+<section id="third">
+<div class="third">
+<section>
+  <h1 id="about"> About Us</h1>
+  <section id="hand"><img id="hand1" src="enviroment.png" alt="picture of hand holding leaf"/><br><br><p id="hand2">We keep our carbon footprint<br> at the lowest possible and push the<br> industry boundaries</p></section>
+  <section id="health"><img id="health1" src="health.png" alt="picture of medicine"/><br><br><p id="health2">We are proof that a quick snack<br>does not need to be unhealthy!<br>each juice is packed <br> with important micronutrients<br> to compliment your diet!</p></section>
+  <section id="delivery"><img id="delivery1" src="delivery.png" alt="picture of delivery truck"/><br><br><p id="delivery2">The quickest delivery for <br>your convenience,we will bring it to you anywhere anytime</p></section>
+
+</section>
+</div>
+</section>
+
+<div>
+  <section id="fourth">
+<section class="fourth">
+  <h1>Contact</h1>
+  <section id="blue">
+    <h2 id="reach">Reach Us</h2>
+    <p id="left1">Contact us whenever you need, our top notch <br> customer service will try and help you as <br> much as they can, call us now!</p>
+    <p id="right1"><img id="email" src="email.png" alt="email"/>  fakeemail@company.fake.com</p>
+    <p id="right1"><img id="email" src="phone.png" alt="phone"/>  +44 (0) 657 463 928</p>
+    <p id="right1"><img id="email" src="location.png" alt="location"/>  32 Main Street</p>
+  </section>
+
+  <section id="yellow">
+    <h2>Join the team!</h2>
+    <p id="left1">Interested in working for us?<br> we are contantly searching for young <br>passionate people, let us know if you want to be <br> part of the team!</p>
+    <br><button type="button" class="btn btn-danger">Join now</button>
+
+  </section>
+
+</section>
+</section>
+</div>
+
+</body>
+<style>
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+
+  height: 100em;
+}
+
+.div{
+  width:100%;
+}
+#left a
+{
+  float: left;
+  text-align: center;
+
+}
+
+#right a {
+
+  float: right;
+  text-align: center;
+
+}
+
+#logo {
+    z-index: 100;
+    position: absolute;
+    left:45%;
+    top:0%;
+    right:0%;
+    max-width: 5.5em;
+}
+.logo{
+  z-index: 100;
+  position: absolute;
+  left:43%;
+
+}
+
+#toptab{
+    z-index: 1;
+    position: absolute;
+    height: auto;
+    width: auto;
+    left:41%;
+    top:2%;
+    max-height:100%;
+    max-width:100%;
+
+}
+
+.topnav {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  background-color: #5BBDB2;
+  position:fixed;
+  width:100%;
+  height:auto;
+  z-index: 99;
+  overflow:hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+    padding: 2em 4em;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #5BBDB2;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #5BBDB2;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1300px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1300px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: right;
+    display: block;
+    text-align: left;
+  }
+}
+.tab {
+  font-family: Avenir-Medium;
+  font-weight:Medium;
+  position:relative;
+  overflow-x: hidden;
+  background-color: white;
+  left:232px;
+  top:150px;
+}
+.tab button {
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  bottom:0px; /*Change this to increase/decrease distance*/
+  border-bottom: 2px solid #ef7d62;
+}
+
+.tab button.active {
+  background-color: white;
+    border-bottom: 2px solid #ef7d62;
+}
+#fruit{
+  float: left;
+  left:20%;
+  margin-left: 120px;
+  margin-top:10%;
+  max-width: 42%;
+  max-height: 42%;
+}
+
+/* Change the color of links on hover */
+
+#basket{
+  position: absolute;
+  z-index: 2;
+  height: auto;
+  width: auto;
+  top:1.5%;
+  right:2%;
+  max-width: 6%;
+  max-height: 6%;
+}
+
+
+#button1{
+  position:relative;
+  left:20em;
+  top:-3em;
+}
+.first{
+  background-color: white;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  float: left;
+  z-index: -1;
+  position: relative;
+  top:1em;
+
+}
+
+.first p{
+  position:relative;
+  float: left;
+  left: 2%;
+  top:9em;
+  font-size: 22px;
+}
+
+.second{
+  background-color: white;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  float: left;
+  z-index: -1;
+  position: relative;
+  top:4em;
+  left:4em;
+
+}
+
+.second p{
+  position:relative;
+  float: left;
+  top: -3em;
+  font-size: 22px;
+
+}
+#secondsmaller{
+  position: relative;
+  top:7em;
+  left:-26em;
+  font-size: 14px;
+}
+
+#fruit2{
+  float: left;
+  margin-top: -5em;
+  margin-left: -6em;
+  margin-right: -5em;
+  max-width: 14em;
+  max-height: 14em;
+}
+
+.third{
+   background-image: url("fruits3.png");
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  float: left;
+  z-index: -1;
+  position: relative;
+  top:7em;
+  left:0em;
+  width:100%;
+  height:15em;
+}
+#about{
+  position: relative;
+  background-color: white;
+  top:2em;
+  left:2em;
+  width:5em;
+}
+#hand{
+  position: relative;
+  width:8em;
+  left:5em;
+  height:8em;
+  top:3em;
+  background-color: white;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+
+}
+#hand1{
+  float: left;
+  margin-left: 2.6em;
+  margin-top:10%;
+  max-width: 2.3em;
+  max-height: 2.3em;
+}
+#hand2{
+  position: relative;
+  top:2em;
+  font-size: 14px;
+}
+#health{
+  position: relative;
+  width:8em;
+  left:16em;
+  height:8em;
+  top:-5em;
+  background-color: white;
+  text-align: center;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+#health1{
+  float: left;
+  margin-left: 3.3em;
+  margin-top:9.6%;
+  max-width: 2em;
+  max-height: 2em;
+}
+#health2{
+  position: relative;
+  top:2em;
+  font-size: 14px;
+}
+#delivery{
+  position: relative;
+  width:8em;
+  left:27em;
+  height:8em;
+  top:-13em;
+  background-color: white;
+  text-align: center;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+
+}
+#delivery1{
+  float: left;
+  margin-left: 2.8em;
+  margin-top:9.6%;
+  max-width: 2.7em;
+  max-height: 2.7em;
+}
+#delivery2{
+  position: relative;
+  top:2em;
+  font-size: 14px;
+}
+
+.fourth{
+  background-color: white;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  float: left;
+  z-index: -1;
+  position: relative;
+  top:9em;
+  left:2em;
+  width:100%;
+  height:15em;
+
+}
+.fourth h1{
+  padding:0.5em;
+}
+#blue{
+  width:23em;
+  height:11em;
+  background-color: #5BBDB2;
+  padding:1.5em;
+}
+
+#blue h2{
+  color: white;
+}
+
+#blue p{
+  color: white;
+  position: relative;
+  top:3em;
+  font-size: 14px;
+}
+
+#left1{
+  position: relative;
+  top:1em;
+
+}
+#right1{
+  top:-12em;
+
+  left:32em;
+
+}
+
+#email{
+  width: 2em;
+  height: 1.5em;
+}
+
+#yellow{
+  color:white;
+  position:relative;
+  top:-11em;
+  width:12em;
+  height:11em;
+  left: 24em;
+  background-color: #e6d32c;
+  padding:1.5em;
+}
+#yellow p{
+  color:black;
+  position: relative;
+  top:3em;
+  font-size: 14px;
+}
+.col{
+ width:500px;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 53%;
+  margin-right: 10%;
+  margin-top:32%;
+  padding:23px;
+  background-color: #e6d32c;
+  text-align: center;
+}
+.form-control
+{
+  width:300px;
+}
+
+.products{
+  font-size:50px;
+  position:relative;
+  left: 130px;
+top:250px;
+font-family: Avenir, Helvetica, Arial, sans-serif;
+font-weight: normal;
+}
+
+#leaves{
+  position:relative;
+  overflow-y:hidden;
+  margin-top:50%;
+  margin-left: 0px;
+max-width:100%;
+max-height:100%;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+
+input
+{
+  position: relative;
+}
+</style>
+</html>
